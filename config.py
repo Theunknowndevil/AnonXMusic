@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","24598821"))
-API_HASH = getenv("API_HASH","ad13216ba888b295d369885a1da2295f")
+API_ID = int(getenv("API_ID","23307099"))
+API_HASH = getenv("API_HASH","87355f68d4e4c390ea832611630257fe")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 5032639872))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/i7cloudsstatus")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ax_muzicsuppo")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,20 +78,20 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/9d49711e96d3b463f5ea8.jpg"
+    "START_IMG_URL", "https://graph.org/file/99ef93eb840cd580ef218.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/99ef93eb840cd580ef218.jpg"
+    "PING_IMG_URL", "https://graph.org/file/a198ff781f26167671aa5.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/42df2cda3b92b63be3442.jpg"
-STATS_IMG_URL = "https://graph.org/file/52d70bed0f318b008f545.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/9e6ef9d2aa7fd208823a0.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/821a0c035e2cb23a0cf1c.jpg"
-STREAM_IMG_URL = "https://graph.org/file/3d3282e1fe30e7a6357a2.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/4cd79444bf5d06bb84c5c.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/29368cc815fbe65530904.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/3d7b26ae9211e50a631ac.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/b7b2f1040b2579c3b7a36.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/821a0c035e2cb23a0cf1c.jpg"
+STATS_IMG_URL = "https://graph.org/file/b7b2f1040b2579c3b7a36.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/1f500cad02048673b75f0.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/3220004c1ad395526ba99.jpg"
+STREAM_IMG_URL = "https://graph.org/file/8cc14772e9eabb2a7c5bb.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/4289cbeabe572da74b3b2.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/b8c99c224ce7be6c2522d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/108911c4b8298a141ddf9.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/bcf38e7398ddeeb65b379.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/1f500cad02048673b75f0.jpg"
 
 
